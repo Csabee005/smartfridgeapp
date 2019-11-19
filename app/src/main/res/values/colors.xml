@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For the base app theme primary and secondary.-->
+    <!-- Primary -->
+    <color name="colorGreenPrimary">#64ba69</color>
+    <color name="colorGreenPrimaryLight">#96ed98</color>
+    <color name="colorGreenPrimaryDark">#31893d</color>
+
+    <!-- Secondary -->
+    <color name="colorYellowSecondary">#fff59d</color>
+    <color name="colorYellowSecondaryLight">#ffffcf</color>
+    <color name="colorYellowSecondaryDark">#cbc26d</color>
+    <!-- End of base app theme. -->
+
+    <!-- For the black and red theme primary and secondary.-->
+    <!-- Primary -->
+    <color name="colorBlackPrimary">#212121</color>
+    <color name="colorBlackPrimaryLight">#484848</color>
+    <color name="colorBlackPrimaryDark">#000000</color>
+
+    <!-- Secondary -->
+    <color name="colorRedSecondary">#b71c1c</color>
+    <color name="colorRedSecondaryLight">#f05545</color>
+    <color name="colorRedSecondaryDark">#7f0000</color>
+    <!-- End of base app theme. -->
+
+    <!-- For the blue and cyan theme primary and secondary.-->
+    <!-- Primary -->
+    <color name="colorBluePrimary">#42a5f5</color>
+    <color name="colorBluePrimaryLight">#80d6ff</color>
+    <color name="colorBluePrimaryDark">#0077c2</color>
+
+    <!-- Secondary -->
+    <color name="colorCyanSecondary">#7edeea</color>
+    <color name="colorCyanSecondaryLight">#b2ffff</color>
+    <color name="colorCyanSecondaryDark">#48acb8</color>
+    <!-- End of base app theme. -->
+
+
+
+</resources>

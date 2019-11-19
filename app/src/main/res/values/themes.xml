@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Green_and_Yellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="sidebarTopView">@style/sidebar_top_view_gy</item>
+        <item name="sidebarBottomView">@style/sidebar_bottom_view_gy</item>
+        <item name="lightBackground">@style/light_background_gy</item>
+        <item name="textViewContent">@style/textview_content_gy</item>
+        <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_gy</item>
+
+        <item name="pageBackground">@style/page_background_wh</item>
+        <item name="textSubheader">@style/text_subheader_wh</item>
+        <item name="textLarge">@style/text_large_wh</item>
+        <item name="textRegular">@style/text_regular_wh</item>
+        <item name="whiteBackground">@style/white_background_wh</item>
+        <item name="button">@style/button_wh</item>
+        <item name="spinner">@style/spinner_wh</item>
+        <item name="actionBarStyle">@style/action_bar_wh</item>
+    </style>
+
+    <style name="Theme.Black_and_Red" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="sidebarTopView">@style/sidebar_top_view_br</item>
+        <item name="sidebarBottomView">@style/sidebar_bottom_view_br</item>
+        <item name="lightBackground">@style/light_background_br</item>
+        <item name="textViewContent">@style/textview_content_br</item>
+        <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_br</item>
+    </style>
+
+    <style name="Theme.Blue_and_Cyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="sidebarTopView">@style/sidebar_top_view_bc</item>
+        <item name="sidebarBottomView">@style/sidebar_bottom_view_bc</item>
+        <item name="lightBackground">@style/light_background_bc</item>
+        <item name="textViewContent">@style/textview_content_bc</item>
+        <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_bc</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="sidebarTopView" format="reference"/>
+    <attr name="sidebarBottomView" format="reference"/>
+    <attr name="lightBackground" format="reference"/>
+    <attr name="textViewContent" format="reference"/>
+    <attr name="iconBackgroundAgainstSecondary" format="reference"/>
+
+    <attr name="pageBackground" format="reference" />
+    <attr name="textSubheader" format="reference" />
+    <attr name="textLarge" format="reference" />
+    <attr name="textRegular" format="reference" />
+    <attr name="whiteBackground" format="reference" />
+    <attr name="button" format="reference" />
+    <attr name="spinner" format="reference" />
+
+</resources>

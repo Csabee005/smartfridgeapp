@@ -1,0 +1,174 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorGreenPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorGreenPrimaryDark</item>
+        <item name="colorAccent">@color/colorYellowSecondaryLight</item>
+
+        <color name="colorSecondary">@color/colorYellowSecondary</color>
+        <color name="colorSecondaryDark">@color/colorYellowSecondaryDark</color>
+        <color name="colorSecondaryLight">colorYellowSecondaryLight</color>
+    </style>
+
+    <style name="RedAndBlack" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBlackPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBlackPrimaryDark</item>
+        <item name="colorAccent">@color/colorRedSecondary</item>
+    </style>
+
+    <style name="BlueAndCyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="colorAccent">@color/colorCyanSecondary</item>
+    </style> -->
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="switch_text_appearance" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <!-- =============================================================== -->
+    <!-- Green and Yellow styles -->
+    <!-- =============================================================== -->
+
+    <style name="sidebar_top_view_gy">
+        <item name="android:background">@color/colorYellowSecondary</item>
+    </style>
+
+    <style name="sidebar_bottom_view_gy">
+        <item name="android:background">@color/colorGreenPrimaryLight</item>
+    </style>
+
+    <style name="light_background_gy">
+        <item name="android:background">@color/colorYellowSecondaryLight</item>
+    </style>
+
+    <style name="textview_content_gy">
+        <item name="android:textColor">@color/colorBlackPrimary</item>
+    </style>
+
+    <style name="background_against_secondary_gy">
+        <item name="android:tint">@android:color/black</item>
+    </style>
+
+    <style name="page_background_wh">
+        <item name="android:background">@drawable/white_gray_gradient_background</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+    </style>
+
+    <style name="text_subheader_wh">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/text_subheader_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#000</item>
+    </style>
+
+    <style name="text_large_wh">
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">@dimen/text_large_text_size</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowColor">#888</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
+    </style>
+
+    <style name="text_regular_wh">
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+    </style>
+
+    <style name="white_background_wh">
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
+        <item name="android:padding">@dimen/white_background_padding</item>
+    </style>
+
+    <style name="button_wh" parent="text_large_wh">
+        <item name="android:background">@drawable/button_wh</item>
+        <item name="android:layout_marginTop">@dimen/view_margin</item>
+    </style>
+
+    <style name="spinner_wh">
+        <item name="android:background">@drawable/spinner_wh_background</item>
+    </style>
+
+    <style name="horizontal_line_wh">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <color name="actionbar_bg_wh">#AFAFAF</color>
+
+    <style name="action_bar_wh" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg_wh</item>
+        <item name="background">@color/actionbar_bg_wh</item>
+    </style>
+
+    <!-- =============================================================== -->
+    <!-- Black and Red theme -->
+    <!-- =============================================================== -->
+
+    <style name="sidebar_top_view_br">
+        <item name="android:background">@color/colorRedSecondaryDark</item>
+    </style>
+
+    <style name="sidebar_bottom_view_br">
+        <item name="android:background">@color/colorBlackPrimary</item>
+    </style>
+
+    <style name="light_background_br">
+        <item name="android:background">@color/colorBlackPrimaryLight</item>
+    </style>
+
+    <style name="textview_content_br">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="background_against_secondary_br">
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <!-- =============================================================== -->
+    <!-- Blue and Cyan theme -->
+    <!-- =============================================================== -->
+
+    <style name="sidebar_top_view_bc">
+        <item name="android:background">@color/colorBluePrimary</item>
+    </style>
+
+    <style name="sidebar_bottom_view_bc">
+        <item name="android:background">@color/colorCyanSecondaryDark</item>
+    </style>
+
+    <style name="light_background_bc">
+        <item name="android:background">@color/colorBluePrimaryLight</item>
+    </style>
+
+    <style name="textview_content_bc">
+        <item name="android:textColor">@color/colorBlackPrimary</item>
+    </style>
+
+    <style name="background_against_secondary_bc">
+        <item name="android:tint">@android:color/black</item>
+    </style>
+</resources>
