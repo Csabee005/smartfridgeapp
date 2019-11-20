@@ -5,20 +5,20 @@
     <string name="shoppingCarts">Shopping Carts</string>
     <string name="productList">Product List</string>
     <string name="settings">Settings</string>
+    <string name="primaryColor">Primary color</string>
+    <string name="secondaryColor">Secondary color</string>
+    <string name="chooseColor">Choose color…</string>
+    <string name="chooseFromPrimary">Choose a primary color...</string>,
+    <string name="noChanges">No changes were applied!</string>
+    <string name="resetToDefaults">Reset to defaults</string>
+
+
+    <string name="preferencesHint">Change user-wide application settings. Currently only layout color changes are supported. More features to come!</string>
 
     <string-array name="theme_array">
-        <item>Green_and_Yellow</item>
-        <item>Black_and_Red</item>
-        <item>Blue_and_Cyan</item>
+        <item>Choose a color…</item>
+        <item>Green and Yellow</item>
+        <item>Black and Red</item>
+        <item>Blue and Cyan</item>
     </string-array>
-
-    <string name="settings_text_select_theme">Select Theme:</string>
-    <string name="settings_text_credentials">Credentials</string>
-    <string name="settings_text_username_hint">username</string>
-    <string name="settings_text_password_hint">password</string>
-    <string name="settings_text_sync_automatically">Sync automatically</string>
-    <string name="settings_text_location">Location</string>
-    <string name="settings_text_state_on">On</string>
-    <string name="settings_text_state_off">Off</string>
-    <string name="settings_text_clear_data">Clear Data</string>
 </resources>

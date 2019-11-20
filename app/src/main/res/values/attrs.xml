@@ -6,13 +6,6 @@
     <attr name="lightBackground" format="reference"/>
     <attr name="textViewContent" format="reference"/>
     <attr name="iconBackgroundAgainstSecondary" format="reference"/>
-
-    <attr name="pageBackground" format="reference" />
-    <attr name="textSubheader" format="reference" />
-    <attr name="textLarge" format="reference" />
-    <attr name="textRegular" format="reference" />
-    <attr name="whiteBackground" format="reference" />
-    <attr name="button" format="reference" />
-    <attr name="spinner" format="reference" />
+    <attr name="toolbar" format="reference"/>
 
 </resources>
