@@ -8,9 +8,15 @@
     <string name="primaryColor">Primary color</string>
     <string name="secondaryColor">Secondary color</string>
     <string name="chooseColor">Choose color…</string>
-    <string name="chooseFromPrimary">Choose a primary color...</string>,
+    <string name="chooseFromPrimary">Choose a primary color…</string>,
     <string name="noChanges">No changes were applied!</string>
     <string name="resetToDefaults">Reset to defaults</string>
+
+    <!-- Preference list strings -->
+    <string name="productName">Product name:</string>
+    <string name="associatedFridge">Associated fridge:</string>
+    <string name="operatorAndValue">Operator and value: </string>
+    <string name="filterByFridgeName">Filter by fridge name…</string>
 
 
     <string name="preferencesHint">Change user-wide application settings. Currently only layout color changes are supported. More features to come!</string>

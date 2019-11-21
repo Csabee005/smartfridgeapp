@@ -5,6 +5,7 @@
         <item name="sidebarTopView">@style/sidebar_top_view_gy</item>
         <item name="sidebarBottomView">@style/sidebar_bottom_view_gy</item>
         <item name="lightBackground">@style/light_background_gy</item>
+        <item name="lightNoBackground">@style/light_no_background_gy</item>
         <item name="textViewContent">@style/textview_content_gy</item>
         <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_gy</item>
         <item name="toolbar">@style/toolbar_gy</item>
@@ -14,6 +15,7 @@
         <item name="sidebarTopView">@style/sidebar_top_view_br</item>
         <item name="sidebarBottomView">@style/sidebar_bottom_view_br</item>
         <item name="lightBackground">@style/light_background_br</item>
+        <item name="lightNoBackground">@style/light_no_background_br</item>
         <item name="textViewContent">@style/textview_content_br</item>
         <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_br</item>
         <item name="toolbar">@style/toolbar_br</item>
@@ -23,6 +25,7 @@
         <item name="sidebarTopView">@style/sidebar_top_view_bc</item>
         <item name="sidebarBottomView">@style/sidebar_bottom_view_bc</item>
         <item name="lightBackground">@style/light_background_bc</item>
+        <item name="lightNoBackground">@style/light_no_background_bc</item>
         <item name="textViewContent">@style/textview_content_bc</item>
         <item name="iconBackgroundAgainstSecondary">@style/background_against_secondary_bc</item>
         <item name="toolbar">@style/toolbar_bc</item>

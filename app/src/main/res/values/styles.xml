@@ -24,8 +24,14 @@
         <item name="android:background">@color/colorYellowSecondaryLight</item>
     </style>
 
+    <style name="light_no_background_gy">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
     <style name="textview_content_gy">
         <item name="android:textColor">@color/colorBlackPrimary</item>
+        <item name="android:backgroundTint">@color/colorBlackPrimary</item>
+        <item name="android:textColorHint">@color/colorBlackPrimary</item>
     </style>
 
     <style name="background_against_secondary_gy">
@@ -52,8 +58,14 @@
         <item name="android:background">@color/colorBlackPrimaryLight</item>
     </style>
 
+    <style name="light_no_background_br">
+        <item name="android:background">@color/colorBlackPrimaryLight</item>
+    </style>
+
     <style name="textview_content_br">
         <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
     </style>
 
     <style name="background_against_secondary_br">
@@ -80,8 +92,14 @@
         <item name="android:background">@color/colorBluePrimaryLight</item>
     </style>
 
+    <style name="light_no_background_bc">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
     <style name="textview_content_bc">
         <item name="android:textColor">@color/colorBlackPrimary</item>
+        <item name="android:backgroundTint">@color/colorBlackPrimary</item>
+        <item name="android:textColorHint">@color/colorBlackPrimary</item>
     </style>
 
     <style name="background_against_secondary_bc">

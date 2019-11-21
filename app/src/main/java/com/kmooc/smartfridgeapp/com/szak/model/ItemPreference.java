@@ -3,50 +3,56 @@ package com.kmooc.smartfridgeapp.com.szak.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.kmooc.smartfridgeapp.com.szak.app.AppController;
 
 import java.util.Date;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
         "name",
-        "value",
-        "userId",
+        "location",
         "createdAt",
-        "updatedAt"
+        "updatedAt",
+        "userId"
 })
-public class AppPreference {
+public class ItemPreference {
+
     @JsonProperty("name")
-    private String key;
-    @JsonProperty("value")
-    private String value;
-    @JsonProperty("userId")
-    private int userId;
+    private String name;
+
+    @JsonProperty("location")
+    private String location;
+
     @JsonProperty("createdAt")
     private Date createdAt;
     @JsonProperty("updatedAt")
     private Date updatedAt;
+    @JsonProperty("userId")
+    private int userId;
 
-    public AppPreference() {}
+    public ItemPreference() {}
 
-    public AppPreference(String key, String value) {
-        this.key = key;
-        this.value = value;
-        this.userId = AppController.userId;
-    }
-
-    public AppPreference(String key, String value, int userId) {
-        this.key = key;
-        this.value = value;
-        this.userId = userId;
-    }
-
-    public AppPreference(String key, String value, int userId, Date createdAt, Date updatedAt) {
-        this.key = key;
-        this.value = value;
-        this.userId = userId;
+    public ItemPreference(String name, String location, Date createdAt, Date updatedAt, int userId) {
+        this.name = name;
+        this.location = location;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
+        this.userId = userId;
+    }
+    @JsonProperty("name")
+    public String getName() {
+        return name;
+    }
+    @JsonProperty("name")
+    public void setName(String name) {
+        this.name = name;
+    }
+    @JsonProperty("location")
+    public String getLocation() {
+        return location;
+    }
+    @JsonProperty("location")
+    public void setLocation(String location) {
+        this.location = location;
     }
     @JsonProperty("createdAt")
     public Date getCreatedAt() {
@@ -63,23 +69,6 @@ public class AppPreference {
     @JsonProperty("updatedAt")
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
-    }
-
-    @JsonProperty("name")
-    public String getKey() {
-        return key;
-    }
-    @JsonProperty("name")
-    public void setKey(String key) {
-        this.key = key;
-    }
-    @JsonProperty("value")
-    public String getValue() {
-        return value;
-    }
-    @JsonProperty("value")
-    public void setValue(String value) {
-        this.value = value;
     }
     @JsonProperty("userId")
     public int getUserId() {

@@ -4,6 +4,7 @@
     <attr name="sidebarTopView" format="reference"/>
     <attr name="sidebarBottomView" format="reference"/>
     <attr name="lightBackground" format="reference"/>
+    <attr name="lightNoBackground" format="reference"/>
     <attr name="textViewContent" format="reference"/>
     <attr name="iconBackgroundAgainstSecondary" format="reference"/>
     <attr name="toolbar" format="reference"/>
