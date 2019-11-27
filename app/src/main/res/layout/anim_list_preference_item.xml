@@ -5,8 +5,7 @@
     android:weightSum="15"
     style="?lightBackground">
     <ImageView
-        android:id="@+id/imgListItemPreferenceList"
-        android:src="@drawable/ic_settings_cell"
+        android:id="@+id/imgProductProductList"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
@@ -21,6 +20,7 @@
         android:paddingStart="10dp"
         android:paddingEnd="10dp">
         <TextView
+            android:id="@+id/txtProductNameProductList"
             android:text="@string/productName"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -28,14 +28,16 @@
             android:gravity="center_vertical"
             style="?textViewContent"/>
         <TextView
-            android:text="@string/associatedFridge"
+            android:id="@+id/txtProductMeasurementUnitProductList"
+            android:text="@string/productMeasurementUnit"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
             android:gravity="center_vertical"
             style="?textViewContent"/>
         <TextView
-            android:text="@string/operatorAndValue"
+            android:id="@+id/txtCaloriesPerUnitProductList"
+            android:text="@string/caloriesPerUnit"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
@@ -51,25 +53,26 @@
         android:paddingStart="10dp"
         android:paddingEnd="10dp">
         <TextView
-            android:id="@+id/txtProductNamePreferenceList"
+            android:id="@+id/txtProductCategoryProductList"
+            android:text="@string/category"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:gravity="center_vertical"
+            android:gravity="center"
             style="?textViewContent"/>
         <TextView
-            android:id="@+id/txtProductAssociatedFridgeNamePreferenceList"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
             android:gravity="center_vertical"
             style="?textViewContent"/>
-        <TextView
-            android:id="@+id/txtProductOperatorAndValueStringPreferenceList"
+        <Button
+            android:text="@string/description"
+            android:id="@+id/btnGetProductdescriptionProductList"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:gravity="center_vertical"
-            style="?textViewContent"/>
+            android:gravity="center"
+            style="?sidebarBottomView"/>
     </LinearLayout>
 </LinearLayout>

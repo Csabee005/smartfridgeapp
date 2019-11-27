@@ -18,7 +18,12 @@
     <string name="operatorAndValue">Operator and value: </string>
     <string name="filterByFridgeName">Filter by fridge name…</string>
 
-
+    <!-- Product list strings -->
+    <string name="productMeasurementUnit">Measurement unit</string>
+    <string name="caloriesPerUnit">Calories per unit</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    
     <string name="preferencesHint">Change user-wide application settings. Currently only layout color changes are supported. More features to come!</string>
 
     <string-array name="theme_array">
