@@ -44,7 +44,7 @@
             style="?iconBackgroundAgainstSecondary"/>
     </LinearLayout>
     <ListView
-        android:id="@+id/lstVwPreferencesList"
+        android:id="@+id/lstVwProductList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="11"

@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 
 import com.kmooc.smartfridgeapp.R;
 import com.kmooc.smartfridgeapp.com.szak.model.Product;
+import com.kmooc.smartfridgeapp.com.szak.util.image.ProductImageType;
 
 import java.util.ArrayList;
 
@@ -30,7 +31,7 @@ public class ProductListAdapter extends ArrayAdapter<Product> implements View.On
     // View lookup cache
     private static class ViewHolder {
         TextView txtProductNameProductList, txtProductMeasurementUnitProductList, txtCaloriesPerUnitProductList, txtProductCategoryProductList;
-        Button btnGetProductdescriptionProductList;
+        Button btnGetProductDescriptionProductList;
         ImageView imgProductProductList;
     }
 
@@ -44,9 +45,9 @@ public class ProductListAdapter extends ArrayAdapter<Product> implements View.On
     @Override
     public void onClick(View v) {
 
-        int position=(Integer) v.getTag();
-        Object object= getItem(position);
-        Product dataModel=(Product) object;
+        int position = (Integer) v.getTag();
+        Object object = getItem(position);
+        Product product = (Product) object;
 
         if (editable) {
             // TODO open new fragment where the preferenceItem is the one clicked here
@@ -74,7 +75,7 @@ public class ProductListAdapter extends ArrayAdapter<Product> implements View.On
             viewHolder.txtProductMeasurementUnitProductList = (TextView) convertView.findViewById(R.id.txtProductMeasurementUnitProductList);
             viewHolder.txtCaloriesPerUnitProductList = (TextView) convertView.findViewById(R.id.txtCaloriesPerUnitProductList);
             viewHolder.txtProductCategoryProductList = convertView.findViewById(R.id.txtProductCategoryProductList);
-            viewHolder.btnGetProductdescriptionProductList = convertView.findViewById(R.id.btnGetProductdescriptionProductList);
+            viewHolder.btnGetProductDescriptionProductList = convertView.findViewById(R.id.btnGetProductdescriptionProductList);
             viewHolder.imgProductProductList = (ImageView) convertView.findViewById(R.id.imgProductProductList);
 
             result=convertView;
@@ -93,10 +94,8 @@ public class ProductListAdapter extends ArrayAdapter<Product> implements View.On
         viewHolder.txtProductMeasurementUnitProductList.setText(product.getUnit());
         viewHolder.txtCaloriesPerUnitProductList.setText(product.getCalories());
         viewHolder.txtProductCategoryProductList.setText(product.getCategory());
-        // TODO continue here
-        //viewHolder.imgListItemPreferenceList.setOnClickListener(this);
-        //viewHolder.imgListItemPreferenceList.setTag(position);
-        // Return the completed view to render on screen
+        viewHolder.btnGetProductDescriptionProductList.setOnClickListener(this);
+        viewHolder.imgProductProductList.setImageDrawable(ProductImageType.valueOf(product.getName().toUpperCase()).getDrawableSource());
         return convertView;
     }
 }

@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import com.kmooc.smartfridgeapp.R;
 import com.kmooc.smartfridgeapp.com.szak.util.FragmentNames;
 
-public class PreferenceListFragment extends Fragment {
+public class ProductListFragment extends Fragment {
     private View view;
 
     @Override
@@ -24,6 +24,6 @@ public class PreferenceListFragment extends Fragment {
     }
 
     private void setListeners() {
-        ListView lstVwPreferencesList = view.findViewById(R.id.lstVwPreferencesList);
+        ListView lstVwProductList = view.findViewById(R.id.lstVwProductList);
     }
 }
